@@ -1,0 +1,1281 @@
+{
+  "cn": [
+    {
+      "title": "EMQX Cloud 文档中心",
+      "path": "./"
+    },
+    {
+      "title": "EMQX Cloud 概览",
+      "path": "overview"
+    },
+    {
+      "title": "版本和定价",
+      "path": "price/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "版本介绍",
+          "path": "price/plans"
+        },
+        {
+          "title": "定价计费",
+          "path": "price/pricing"
+        }
+      ]
+    },
+    {
+      "title": "快速入门",
+      "path": "quick_start/introduction",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "使用 MQTTX 连接/验证部署",
+          "path": "connect_to_deployments/mqttx"
+        }
+      ]
+    },
+    {
+      "title": "创建部署",
+      "path": "create/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "创建 Serverless 部署",
+          "path": "create/serverless"
+        },
+        {
+          "title": "创建专有版部署",
+          "path": "create/dedicated",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "TLS/SSL 设置",
+              "path": "deployments/tls_ssl"
+            },
+            {
+              "title": "VPC 对等连接设置",
+              "path": "deployments/vpc_peering"
+            },
+            {
+              "title": "私网连接 PrivateLink 设置",
+              "path": "deployments/privatelink"
+            }
+          ]
+        },
+        {
+          "title": "创建 BYOC 部署",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "部署前置准备",
+              "path": "deployments/byoc_prerequisite"
+            },
+            {
+              "title": "TLS/SSL 设置",
+              "path": "deployments/byoc_ssl"
+            },
+            {
+              "title": "BYOC 许可证",
+              "path": "deployments/byoc_license"
+            },
+            {
+              "title": "执行部署",
+              "path": "create/byoc"
+            },
+            {
+              "title": "VPC 对等连接设置",
+              "path": "deployments/byoc_vpc_peering"
+            }
+          ]
+        },
+        {
+          "title": "配额和限制",
+          "path": "create/restriction"
+        }
+      ]
+    },
+    {
+      "title": "启停/删除部署",
+      "path": "deployments/stop_delete_deployment"
+    },
+    {
+      "title": "客户端认证",
+      "path": "deployments/auth_overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "默认认证",
+          "path": "deployments/default_auth"
+        },
+        {
+          "title": "扩展认证",
+          "path": "deployments/custom_auth",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "HTTP 密码认证",
+              "path": "deployments/http_auth"
+            },
+            {
+              "title": "Redis 密码认证",
+              "path": "deployments/redis_auth"
+            },
+            {
+              "title": "MySQL 密码认证",
+              "path": "deployments/mysql_auth"
+            },
+            {
+              "title": "PostgreSQL 密码认证",
+              "path": "deployments/pgsql_auth"
+            },
+            {
+              "title": "JWT 认证",
+              "path": "deployments/jwt_auth"
+            }
+          ]
+        },
+        {
+          "title": "黑名单",
+          "path": "deployments/blacklist"
+        }
+      ]
+    },
+    {
+      "title": "客户端授权",
+      "path": "deployments/authz_overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "默认授权",
+          "path": "deployments/default_authz"
+        },
+        {
+          "title": "扩展授权",
+          "path": "deployments/custom_authz",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "基于 HTTP 进行授权",
+              "path": "deployments/http_authz"
+            },
+            {
+              "title": "基于 Redis 进行授权",
+              "path": "deployments/redis_authz"
+            },
+            {
+              "title": "基于 MySQL 进行授权",
+              "path": "deployments/mysql_authz"
+            },
+            {
+              "title": "基于 PostgreSQL 进行授权",
+              "path": "deployments/pgsql_authz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "项目和用户管理",
+      "path": "feature/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "项目管理",
+          "path": "feature/project"
+        },
+        {
+          "title": "角色和权限",
+          "path": "feature/role"
+        },
+        {
+          "title": "用户管理",
+          "path": "feature/user"
+        },
+        {
+          "title": "工单",
+          "path": "feature/tickets"
+        },
+        {
+          "title": "单点登录 (SSO)",
+          "path": "feature/sso_overview",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "配置 Okta SSO",
+              "path": "feature/sso_okta"
+            },
+            {
+              "title": "配置 Azure AD SSO",
+              "path": "feature/sso_azure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "监控",
+      "path": "deployments/monitors",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "指标",
+          "path": "deployments/metrics"
+        },
+        {
+          "title": "客户端",
+          "path": "deployments/clients"
+        },
+        {
+          "title": "订阅管理",
+          "path": "deployments/subscription_management"
+        },
+        {
+          "title": "保留消息",
+          "path": "deployments/retain_message"
+        },
+        {
+          "title": "告警",
+          "path": "deployments/alerts",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "Webhook 告警",
+              "path": "deployments/alerts_webhook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "问题分析",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "日志",
+          "path": "deployments/logs"
+        }
+      ]
+    },
+    {
+      "title": "接入客户端/应用",
+      "path": "connect_to_deployments/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Serverless 连接指引",
+          "path": "deployments/port_guide_serverless"
+        },
+        {
+          "title": "专有版 / BYOC 连接指引",
+          "path": "deployments/port_guide_dedicated"
+        },
+        {
+          "title": "使用 Python SDK 接入",
+          "path": "connect_to_deployments/python_sdk"
+        },
+        {
+          "title": "使用 Go SDK 接入",
+          "path": "connect_to_deployments/golang_sdk"
+        },
+        {
+          "title": "使用 Java SDK 接入",
+          "path": "connect_to_deployments/java_sdk"
+        },
+        {
+          "title": "使用 Node.js SDK 接入",
+          "path": "connect_to_deployments/nodejs_sdk"
+        },
+        {
+          "title": "使用 C SDK 接入",
+          "path": "connect_to_deployments/c_sdk"
+        },
+        {
+          "title": "使用 C# SDK 接入",
+          "path": "connect_to_deployments/c_sharp_sdk"
+        },
+        {
+          "title": "使用 Android Kotlin SDK 接入",
+          "path": "https://www.emqx.com/zh/blog/android-connects-mqtt-using-kotlin"
+        },
+        {
+          "title": "使用 JavaScript SDK 接入",
+          "path": "connect_to_deployments/js_sdk"
+        },
+        {
+          "title": "使用 Vue.js SDK 接入",
+          "path": "connect_to_deployments/vue_sdk"
+        },
+        {
+          "title": "使用 React SDK 接入",
+          "path": "connect_to_deployments/react_sdk"
+        },
+        {
+          "title": "使用 Electron SDK 接入",
+          "path": "connect_to_deployments/electron_sdk"
+        },
+        {
+          "title": "使用微信小程序 SDK 接入",
+          "path": "connect_to_deployments/wechat_miniprogram"
+        },
+        {
+          "title": "使用 MicroPython + 树莓派接入",
+          "path": "connect_to_deployments/micropython_raspberrypi"
+        },
+        {
+          "title": "使用 ESP8266 连接",
+          "path": "connect_to_deployments/esp8266"
+        },
+        {
+          "title": "使用 ESP32 连接",
+          "path": "connect_to_deployments/esp32"
+        },
+        {
+          "title": "使用 ESP32 + MicroPython 连接",
+          "path": "connect_to_deployments/esp32_with_micropython"
+        },
+        {
+          "title": "使用 MQTTX 连接",
+          "path": "connect_to_deployments/mqttx"
+        },
+        {
+          "title": "使用 MQTT.fx 连接",
+          "path": "connect_to_deployments/mqttfx"
+        },
+        {
+          "title": "MQTT 客户端错误码",
+          "path": "connect_to_deployments/mqtt_client_error_codes"
+        }
+      ]
+    },
+    {
+      "title": "数据集成",
+      "path": "data_integration/introduction",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "连接器",
+          "path": "data_integration/connectors"
+        },
+        {
+          "title": "规则",
+          "path": "data_integration/rules"
+        },
+        {
+          "title": "事件订阅",
+          "path": "rule_engine/rule_engine_events"
+        },
+        {
+          "title": "消息重新发布",
+          "path": "data_integration/republish"
+        },
+        {
+          "title": "空动作（调试）",
+          "path": "data_integration/empty_action_debug"
+        },
+        {
+          "title": "HTTP Server",
+          "path": "data_integration/http_server"
+        },
+        {
+          "title": "MQTT Broker",
+          "path": "data_integration/mqtt"
+        },
+        {
+          "title": "Kafka",
+          "path": "data_integration/kafka"
+        },
+        {
+          "title": "Pulsar",
+          "path": "data_integration/pulsar"
+        },
+        {
+          "title": "RabbitMQ",
+          "path": "data_integration/rabbitmq"
+        },
+        {
+          "title": "RocketMQ",
+          "path": "data_integration/rocketmq"
+        },
+        {
+          "title": "MySQL",
+          "path": "data_integration/mysql"
+        },
+        {
+          "title": "Redis",
+          "path": "data_integration/redis"
+        },
+        {
+          "title": "MongoDB",
+          "path": "data_integration/mongodb"
+        },
+        {
+          "title": "PostgreSQL",
+          "path": "data_integration/postgresql"
+        },
+        {
+          "title": "Cassandra",
+          "path": "data_integration/cassandra"
+        },
+        {
+          "title": "ClickHouse",
+          "path": "data_integration/clickhouse"
+        },
+        {
+          "title": "InfluxDB",
+          "path": "data_integration/influxdb"
+        },
+        {
+          "title": "Microsoft SQL Server",
+          "path": "data_integration/microsoft_sql_server"
+        },
+        {
+          "title": "OpenTSDB",
+          "path": "data_integration/opentsdb"
+        },
+        {
+          "title": "TDengine",
+          "path": "data_integration/tdengine"
+        },
+        {
+          "title": "HStreamDB",
+          "path": "data_integration/hstreamdb"
+        },
+        {
+          "title": "Apache IoTDB",
+          "path": "data_integration/apache_iotdb"
+        },
+        {
+          "title": "Elasticsearch",
+          "path": "data_integration/elasticsearch"
+        },
+        {
+          "title": "GreptimeDB",
+          "path": "data_integration/greptimedb"
+        }
+      ]
+    },
+    {
+      "title": "财务管理",
+      "path": "billing/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "账单概览",
+          "path": "billing/overview"
+        },
+        {
+          "title": "代金券",
+          "path": "billing/coupon"
+        },
+        {
+          "title": "发票",
+          "path": "billing/invoices"
+        },
+        {
+          "title": "续费管理",
+          "path": "billing/subscription"
+        },
+        {
+          "title": "到期和欠费",
+          "path": "billing/overdue"
+        },
+        {
+          "title": "Serverless 消费限额设置",
+          "path": "deployments/spend_limit"
+        }
+      ]
+    },
+    {
+      "title": "增值服务",
+      "path": "vas/vas-intro",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "增值服务计费说明",
+          "path": "vas/vas-price"
+        },
+        {
+          "title": "NAT 网关",
+          "path": "vas/nat-gateway"
+        },
+        {
+          "title": "内网负载均衡",
+          "path": "vas/intranet-lb"
+        },
+        {
+          "title": "流量包",
+          "path": "vas/traffic-pack"
+        }
+      ]
+    },
+    {
+      "title": "APIs",
+      "path": "api/introduction",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Serverless API",
+          "path": "api/serverless",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "客户端管理",
+              "path": "api/clients_v5"
+            },
+            {
+              "title": "订阅管理",
+              "path": "api/subscriptions_v5"
+            },
+            {
+              "title": "消息发布",
+              "path": "api/publish_v5"
+            }
+          ]
+        },
+        {
+          "title": "专有版 API",
+          "path": "https://docs.emqx.com/zh/cloud/latest/api/dedicated"
+        }
+      ]
+    },
+    {
+      "title": "最佳实践",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Serverless 使用和管理",
+          "path": "best_practices/serverless_practice"
+        },
+        {
+          "title": "如何使用共享订阅",
+          "path": "connect_to_deployments/shared_subscription"
+        },
+        {
+          "title": "获取订阅关系",
+          "path": "rule_engine/rule_engine_get_subscription"
+        },
+        {
+          "title": "保存离线消息",
+          "path": "rule_engine/rule_engine_offline_msg_saving"
+        },
+        {
+          "title": "数据集成 + Redis 实时获取主题下订阅的客户端",
+          "path": "best_practices/save_topic_clients_to_redis"
+        },
+        {
+          "title": "如何排查消息丢失",
+          "path": "best_practices/how_to_troubleshoot_message_loss"
+        }
+      ]
+    },
+    {
+      "title": "版本发布和升级策略",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "版本发布记录",
+          "path": "release_notes"
+        },
+        {
+          "title": "升级策略",
+          "path": "upgrade_policy"
+        }
+      ]
+    },
+    {
+      "title": "常见问题",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "一般业务问题",
+          "path": "faq/normal_a"
+        },
+        {
+          "title": "一般开发问题",
+          "path": "faq/normal_b"
+        },
+        {
+          "title": "部署相关问题",
+          "path": "faq/deploy"
+        },
+        {
+          "title": "财务相关问题",
+          "path": "faq/billing"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "title": "Introduction",
+      "path": "./"
+    },
+    {
+      "title": "Product Overview",
+      "path": "overview"
+    },
+    {
+      "title": "What's New",
+      "path": "new_features"
+    },
+    {
+      "title": "Plans and Pricing",
+      "path": "price/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Product Plans",
+          "path": "price/plans"
+        },
+        {
+          "title": "Product Pricing",
+          "path": "price/pricing"
+        }
+      ]
+    },
+    {
+      "title": "Get Started",
+      "path": "quick_start/introduction",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Use MQTTX to Test Connection",
+          "path": "connect_to_deployments/mqttx"
+        }
+      ]
+    },
+    {
+      "title": "Create a Deployment",
+      "path": "create/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Create a Serverless Deployment",
+          "path": "create/serverless"
+        },
+        {
+          "title": "Create a Dedicated Deployment",
+          "path": "create/dedicated",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "TLS/SSL",
+              "path": "deployments/tls_ssl"
+            },
+            {
+              "title": "VPC Peering Connection",
+              "path": "deployments/vpc_peering"
+            },
+            {
+              "title": "Configure PrivateLink",
+              "path": "deployments/privatelink",
+              "collapsed": true,
+              "children": [
+                {
+                  "title": "AWS PrivateLink",
+                  "path": "deployments/privatelink-aws"
+                },
+                {
+                  "title": "Azure PrivateLink",
+                  "path": "deployments/privatelink-azure"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Create a BYOC Deployment",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "Deployment Prerequisite",
+              "path": "deployments/byoc_prerequisite"
+            },
+            {
+              "title": "TLS/SSL",
+              "path": "deployments/byoc_ssl"
+            },
+            {
+              "title": "BYOC License",
+              "path": "deployments/byoc_license"
+            },
+            {
+              "title": "Create a Deployment",
+              "path": "create/byoc"
+            },
+            {
+              "title": "VPC Peering Setting",
+              "path": "deployments/byoc_vpc_peering"
+            }
+          ]
+        },
+        {
+          "title": "Quotas and Limits",
+          "path": "create/restriction"
+        }
+      ]
+    },
+    {
+      "title": "Start/Stop/Delete Deployment",
+      "path": "deployments/stop_delete_deployment"
+    },
+    {
+      "title": "Client Authentication",
+      "path": "deployments/auth_overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Default Authentication",
+          "path": "deployments/default_auth"
+        },
+        {
+          "title": "Extended Authentication",
+          "path": "deployments/custom_auth",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "HTTP Authentication",
+              "path": "deployments/http_auth"
+            },
+            {
+              "title": "JWT Authentication",
+              "path": "deployments/jwt_auth"
+            },
+            {
+              "title": "Redis Authentication",
+              "path": "deployments/redis_auth"
+            },
+            {
+              "title": "MySQL Authentication",
+              "path": "deployments/mysql_auth"
+            },
+            {
+              "title": "PostgreSQL Authentication",
+              "path": "deployments/pgsql_auth"
+            }
+          ]
+        },
+        {
+          "title": "Blacklist",
+          "path": "deployments/blacklist"
+        }
+      ]
+    },
+    {
+      "title": "Client Authorization",
+      "path": "deployments/authz_overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Default Authorization",
+          "path": "deployments/default_authz"
+        },
+        {
+          "title": "Extended Authorization",
+          "path": "deployments/custom_authz",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "HTTP Authorization",
+              "path": "deployments/http_authz"
+            },
+            {
+              "title": "Redis Authorization",
+              "path": "deployments/redis_authz"
+            },
+            {
+              "title": "MySQL Authorization",
+              "path": "deployments/mysql_authz"
+            },
+            {
+              "title": "PostgreSQL Authorization",
+              "path": "deployments/pgsql_authz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Project and Account",
+      "path": "feature/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Project Management",
+          "path": "feature/project"
+        },
+        {
+          "title": "Role and Authentication",
+          "path": "feature/role"
+        },
+        {
+          "title": "Subaccount Management",
+          "path": "feature/user"
+        },
+        {
+          "title": "Tickets",
+          "path": "feature/tickets"
+        },
+        {
+          "title": "Single Sign-On (SSO)",
+          "path": "feature/sso_overview",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "Configure Okta SSO",
+              "path": "feature/sso_okta"
+            },
+            {
+              "title": "Configure Azure AD SSO",
+              "path": "feature/sso_azure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "path": "deployments/monitors",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Metrics",
+          "path": "deployments/metrics"
+        },
+        {
+          "title": "Clients",
+          "path": "deployments/clients"
+        },
+        {
+          "title": "Subscription Management",
+          "path": "deployments/subscription_management"
+        },
+        {
+          "title": "Retained Message",
+          "path": "deployments/retain_message"
+        },
+        {
+          "title": "Alerts",
+          "path": "deployments/alerts",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "Webhook alerts",
+              "path": "deployments/alerts_webhook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Diagnose",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Logs",
+          "path": "deployments/logs"
+        }
+      ]
+    },
+    {
+      "title": "Connection with Clients/Applications",
+      "path": "connect_to_deployments/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Serverless Connection Guide",
+          "path": "deployments/port_guide_serverless"
+        },
+        {
+          "title": "Dedicated / BYOC Connection Guide",
+          "path": "deployments/port_guide_dedicated"
+        },
+        {
+          "title": "Connect via Python SDK",
+          "path": "connect_to_deployments/python_sdk"
+        },
+        {
+          "title": "Connect via Go SDK",
+          "path": "connect_to_deployments/golang_sdk"
+        },
+        {
+          "title": "Connect via Java SDK",
+          "path": "connect_to_deployments/java_sdk"
+        },
+        {
+          "title": "Connect via Node.js SDK",
+          "path": "connect_to_deployments/nodejs_sdk"
+        },
+        {
+          "title": "Connect via C SDK",
+          "path": "connect_to_deployments/c_sdk"
+        },
+        {
+          "title": "Connect via C# SDK",
+          "path": "connect_to_deployments/c_sharp_sdk"
+        },
+        {
+          "title": "Connect via JavaScript SDK",
+          "path": "connect_to_deployments/js_sdk"
+        },
+        {
+          "title": "Connect via Vue.js SDK",
+          "path": "connect_to_deployments/vue_sdk"
+        },
+        {
+          "title": "Connect via React SDK",
+          "path": "connect_to_deployments/react_sdk"
+        },
+        {
+          "title": "Connect via Electron SDK",
+          "path": "connect_to_deployments/electron_sdk"
+        },
+        {
+          "title": "Connect via MicroPython + Raspberry Pi",
+          "path": "connect_to_deployments/micropython_raspberrypi"
+        },
+        {
+          "title": "Connect with MQTTX",
+          "path": "connect_to_deployments/mqttx"
+        },
+        {
+          "title": "Connect with MQTT.fx",
+          "path": "connect_to_deployments/mqttfx"
+        },
+        {
+          "title": "Connect with ESP8266",
+          "path": "connect_to_deployments/esp8266"
+        },
+        {
+          "title": "Connect with ESP32",
+          "path": "connect_to_deployments/esp32"
+        },
+        {
+          "title": "Connect with ESP32 + MicroPython",
+          "path": "connect_to_deployments/esp32_with_micropython"
+        },
+        {
+          "title": "Connect with Home Assistant",
+          "path": "connect_to_deployments/home_assistant"
+        },
+        {
+          "title": "Connect with openHAB",
+          "path": "connect_to_deployments/openhab"
+        },
+        {
+          "title": "MQTT Client Error Codes",
+          "path": "connect_to_deployments/mqtt_client_error_codes"
+        }
+      ]
+    },
+    {
+      "title": "Data Integration",
+      "path": "data_integration/introduction",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Connector",
+          "path": "data_integration/connectors"
+        },
+        {
+          "title": "Rules",
+          "path": "data_integration/rules"
+        },
+        {
+          "title": "Event Topics",
+          "path": "rule_engine/rule_engine_events"
+        },
+        {
+          "title": "Message Republish",
+          "path": "data_integration/republish"
+        },
+        {
+          "title": "Null Action (Debug)",
+          "path": "data_integration/empty_action_debug"
+        },
+        {
+          "title": "HTTP Server",
+          "path": "data_integration/http_server"
+        },
+        {
+          "title": "MQTT Broker",
+          "path": "data_integration/mqtt"
+        },
+        {
+          "title": "Kafka",
+          "path": "data_integration/kafka"
+        },
+        {
+          "title": "Upstash for Kafka",
+          "path": "data_integration/kafka_upstash"
+        },
+        {
+          "title": "Confluent",
+          "path": "data_integration/confluent"
+        },
+        {
+          "title": "Google PubSub",
+          "path": "data_integration/gcp_pubsub"
+        },
+        {
+          "title": "Pulsar",
+          "path": "data_integration/pulsar"
+        },
+        {
+          "title": "RabbitMQ",
+          "path": "data_integration/rabbitmq"
+        },
+        {
+          "title": "RocketMQ",
+          "path": "data_integration/rocketmq"
+        },
+        {
+          "title": "MySQL",
+          "path": "data_integration/mysql"
+        },
+        {
+          "title": "PostgreSQL",
+          "path": "data_integration/postgresql"
+        },
+        {
+          "title": "Redis",
+          "path": "data_integration/redis"
+        },
+        {
+          "title": "Upstash for Redis",
+          "path": "data_integration/redis_upstash"
+        },
+        {
+          "title": "MongoDB",
+          "path": "data_integration/mongodb"
+        },
+        {
+          "title": "Cassandra",
+          "path": "data_integration/cassandra"
+        },
+        {
+          "title": "ClickHouse",
+          "path": "data_integration/clickhouse"
+        },
+        {
+          "title": "DynamoDB",
+          "path": "data_integration/dynamodb"
+        },
+        {
+          "title": "InfluxDB",
+          "path": "data_integration/influxdb"
+        },
+        {
+          "title": "Microsoft SQL Server",
+          "path": "data_integration/microsoft_sql_server"
+        },
+        {
+          "title": "OpenTSDB",
+          "path": "data_integration/opentsdb"
+        },
+        {
+          "title": "TDengine",
+          "path": "data_integration/tdengine"
+        },
+        {
+          "title": "TimescaleDB",
+          "path": "data_integration/timescaledb"
+        },
+        {
+          "title": "HStreamDB",
+          "path": "data_integration/hstreamdb"
+        },
+        {
+          "title": "Apache IoTDB",
+          "path": "data_integration/apache_iotdb"
+        },
+        {
+          "title": "GCP PubSub",
+          "path": "data_integration/gcp_pubsub"
+        },
+        {
+          "title": "Elasticsearch",
+          "path": "data_integration/elasticsearch"
+        },
+        {
+          "title": "GreptimeDB",
+          "path": "data_integration/greptimedb"
+        },
+        {
+          "title": "Amazon Kinesis",
+          "path": "data_integration/amazon_kinesis"
+        },
+        {
+          "title": "Azure Event Hubs",
+          "path": "data_integration/azure_event_hubs"
+        }
+      ]
+    },
+    {
+      "title": "Billing",
+      "path": "billing/overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Billing Overview",
+          "path": "billing/overview"
+        },
+        {
+          "title": "Billing Information",
+          "path": "billing/billing_information"
+        },
+        {
+          "title": "Billing from AWS Marketplace",
+          "path": "billing/aws_marketplace"
+        },
+        {
+          "title": "Billing from Azure Marketplace",
+          "path": "billing/azure_marketplace"
+        },
+        {
+          "title": "Billing from GCP Marketplace",
+          "path": "billing/gcp_marketplace"
+        },
+        {
+          "title": "Invoice",
+          "path": "billing/invoices"
+        },
+        {
+          "title": "Coupon",
+          "path": "billing/coupon"
+        },
+        {
+          "title": "Subscriptions",
+          "path": "billing/subscription"
+        },
+        {
+          "title": "Taxation by Region",
+          "path": "billing/taxation"
+        },
+        {
+          "title": "Overdue and Expiry",
+          "path": "billing/overdue"
+        },
+        {
+          "title": "Serverless Spend Limit",
+          "path": "deployments/spend_limit"
+        }
+      ]
+    },
+    {
+      "title": "Value Added Services",
+      "path": "vas/vas-intro",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "VAS Billing",
+          "path": "vas/vas-price"
+        },
+        {
+          "title": "NAT Gateway",
+          "path": "vas/nat-gateway"
+        },
+        {
+          "title": "Internal Load Balancers",
+          "path": "vas/intranet-lb"
+        }
+      ]
+    },
+    {
+      "title": "API",
+      "path": "api/api_overview",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Serverless API",
+          "path": "api/serverless",
+          "collapsed": true,
+          "children": [
+            {
+              "title": "Client Management",
+              "path": "api/clients_v5"
+            },
+            {
+              "title": "Subscription Information",
+              "path": "api/subscriptions_v5"
+            },
+            {
+              "title": "Message Publish",
+              "path": "api/publish_v5"
+            }
+          ]
+        },
+        {
+          "title": "Dedicated API",
+          "path": "https://docs.emqx.com/en/cloud/latest/api/dedicated.html"
+        }
+      ]
+    },
+    {
+      "title": "Best Practices",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Serverless Usage and Management",
+          "path": "best_practices/serverless_practice"
+        },
+        {
+          "title": "Store Device Offline Messages",
+          "path": "rule_engine/rule_engine_offline_msg_saving"
+        },
+        {
+          "title": "Get Subscription Topic Information",
+          "path": "rule_engine/rule_engine_get_subscription"
+        },
+        {
+          "title": "Shared Subscription",
+          "path": "connect_to_deployments/shared_subscription"
+        },
+        {
+          "title": "How to Troubleshoot Message Loss",
+          "path": "best_practices/how_to_troubleshoot_message_loss"
+        }
+      ]
+    },
+    {
+      "title": "Release Note & Upgrade Policy",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Release Note",
+          "path": "release_notes"
+        },
+        {
+          "title": "Upgrade Policy",
+          "path": "upgrade_policy"
+        }
+      ]
+    },
+    {
+      "title": "FAQ",
+      "collapsed": true,
+      "children": [
+        {
+          "title": "Ordinary Business",
+          "path": "faq/normal_a"
+        },
+        {
+          "title": "Ordinary Development",
+          "path": "faq/normal_b"
+        },
+        {
+          "title": "Deployment Related",
+          "path": "faq/deploy"
+        },
+        {
+          "title": "Billing",
+          "path": "faq/billing"
+        },
+        {
+          "title": "Delete Account",
+          "path": "faq/delete_account"
+        }
+      ]
+    }
+  ]
+}
